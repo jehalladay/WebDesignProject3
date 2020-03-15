@@ -1,0 +1,51 @@
+**************************************************************************
+Filename:
+By. James Halladay, Alex, Glenn
+Project: Project 3
+Login: jehalladay, ... , ...
+Assignment No: 3
+File Description:
+
+This file will hold all of James' Documentation
+
+Date: 
+
+**************************************************************************
+
+
+I declare that all material in this assessment task is my work
+except where there is clear acknowledgement                   
+or reference to the work of others. I further declare that I  
+have complied and agreed to the CMU Academic Integrity Policy 
+at the University website.                                    
+                                                    
+Author's Name: James Halladay       UID(700#): 700425363   
+Author's Name:                      UID(700#):    
+Author's Name:                      UID(700#):    
+
+Date:                                               
+                                                    
+Date Last Modified:                                
+**************************************************************************
+
+
+3/13/2020
+        created github repository for team to work
+        discussed project and partition of labor
+        set up a new meeting time on the monday? possibly after break
+        agreed to have a header and footer template for all of the pages up by tuesday 3/17/2020
+
+3/15/2020 
+        created html template
+                template.html
+
+        created css files for project
+                project.css
+                projecta.css
+                projectj.css
+                projectg.css
+
+        created documentation files for all group members
+                alex.txt
+                james.txt
+                glen.txt
