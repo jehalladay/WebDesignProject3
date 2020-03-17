@@ -108,7 +108,7 @@ function sendFile(file, url, contentType, response){
                     .write(`404 Error: '${url}' Was Not Found!`);
 			
             response.end();
-            // include file path for easy debugging
+            // include file path for easy debugging, tabs added to make distinct
 			console.log(`\tResponse: 404 Error, '${file}' Was Not Found!`);
 		} else {
             response.writeHead(200, {'Content-Type': contentType})
@@ -151,7 +151,7 @@ function serverController(hostname) {
     
     // Gives server a port to listen to and gives an IP address to find it
     server.listen(port, hostname, () => {
-        console.log(`Server running at ${hostname}:${port}\n\n`);
+        console.log(`Server running at ${hostname}:${port}\n`);
     });
 }
 
