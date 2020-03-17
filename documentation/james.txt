@@ -49,3 +49,10 @@ Date Last Modified:
                 alex.txt
                 james.txt
                 glen.txt
+
+3/16/202
+        re organized the file structure to make index the website's base directory
+        edited the template to include references to the new file locations
+
+3/17/2020   
+        Created a static node server to test out the website live using my desktop while editing on my laptop
