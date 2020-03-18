@@ -30,3 +30,183 @@ Date:
 Date Last Modified:                                
 **************************************************************************
 */
+
+
+/* Initial Template Rules */
+
+
+body {
+    font-family: 'Merriweather', Georgia, Cambria, "Times New Roman", serif;
+    color: #FFFFFF;
+    background-color: #303030;
+}
+
+#body {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #FFFFFF;
+}
+
+#body p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+#navTop {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+
+#rightNav {
+    list-style-type: none;
+    padding: 1em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#headerMid {
+    color: black;
+}
+
+#headerMid p {
+    font-family: Brush Script MT;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+#search {
+    margin-right: 6.2rem;
+    float: right;
+    padding: 1rem;
+    background-color:#FFFFFF ;
+}
+
+#search input[type=text] {
+    padding: .1rem;
+    /* margin-top: 8px;
+    font-size: 17px; */
+    border: #d5d7e4 solid 1pt;
+}
+
+#search button {
+    
+    float: right;
+    font-size: 17px;
+    border-radius: 3.0rem;
+    width: 4.5rem;
+    height: 1.4rem;
+    color: #FFFFFF;
+    background-color: #6C6C6C;
+    cursor: pointer;
+}
+
+
+
+
+
+#navMid {
+    color: #323232;
+    border: #d5d7e4 1pt solid;
+}
+
+#navMid div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#navMid a {
+    padding: 1rem;
+    color: #323232;
+}
+
+#navMid a:hover {
+    color: #323232;
+    background-color: #d5d7e4;
+}    
+
+
+
+#navTop a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.2s;
+    text-align: center;
+}    
+
+#navTop a:hover {
+    color: #B8B8B8;
+}   
+
+
+
+main {
+    background-color: #FFFFFF;
+    color: #323232;
+}
+
+
+
+
+footer p {
+    padding: 5%;
+}
+
+#footTop {
+    background-color: #d5d7e4;
+    color: #323232;
+}
+
+.navBottom {
+    list-style-type: none;
+    line-height: 1.75em;
+}
+
+nav .navBottom a {
+    color: #0053ee;
+    text-decoration: none;
+    transition: 0.2s;
+    margin-top: 10rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2rem;
+}    
+
+nav .navBottom a:hover {
+    color: black;
+}
+
+#footForm input {
+    width: 80%;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+
+#footForm button {
+    width: 80%;
+    border-radius: 4rem;
+    color: #FFFFFF;
+    background-color: #6C6C6C;
+}
+
+#footForm textarea {
+    margin-top: .1rem;
+    margin-bottom: .2rem;
+    width: 80%;
+}
+
+#footBottom {
+    padding: 1rem;
+}
+
+#footBottom i {
+    font-size: .75rem;
+    float: right;
+}

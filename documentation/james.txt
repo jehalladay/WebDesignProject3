@@ -57,3 +57,4 @@ Date Last Modified:
 3/17/2020   
         Created a static node server to test out the website live using my desktop while editing on my laptop
         Added Annotations, comments, and formatting to server to make it more readable
+        Finished the website template along with a header and footer.

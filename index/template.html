@@ -38,33 +38,158 @@ Date Last Modified:
 <html>
     <head>
         <meta charset="utf-8" author="James E. Halladay, Glenn ..., Alex ...">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/project.css" />
         <link rel="stylesheet" href="./css/projecta.css" />
         <link rel="stylesheet" href="./css/projectj.css" />
         <link rel="stylesheet" href="./css/projectg.css" />
+
         <script src="./js/..." > </script>
         <title>Template</title>
     </head>
 
     <body>
-        
-        <header>
+        <div id="body">
+
+                
+            <header>
+                <div class="container-fluid">
+                    <div class="row" id="navTop">
+                        <div class="col-sm-7">
+                            <p id="title">
+                                Welcome to <b>Art Store,</b>
+                                <b><a href="template.html">Login</a></b>
+                                or
+                                <a href="template.html"> <b>Create</b> a new account</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-5" id="rightNav">
+                            <a href="template.html">My Account</a>
+                            <a href="template.html">Wish List</a>
+                            <a href="template.html">Shopping Cart</a>
+                            <a href="template.html">Checkout</a>
+                        </div>
+
+                    </div>
+                    <div class="row" id="headerMid">
+                        <p class="col-sm-6">
+                            Art Store
+                        </p>
+                        <div class="col-sm-6">
+                            <div id="search">
+                                <form action="http://www.randyconnolly.com/tests/process.php">
+                                    <input type="text" placeholder="Search..." name="search">
+                                    <button type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="navMid">
+                        <div class="col-sm-5">
+                            <a href="index-work.html">
+                                Home
+                            </a>
+    
+                            <a href="project-about.html">
+                                About Us
+                            </a>
+                                
+                            <a href="project-work.html">
+                                Art Works
+                            </a>
+                                
+                            <a href="project-artists.html">
+                                Artists
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta quos facere laboriosam fuga fugit dolorum consectetur cum debitis ipsa, fugiat numquam, quibusdam totam amet dolor eos accusamus voluptas quo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta quos facere laboriosam fuga fugit dolorum consectetur cum debitis ipsa, fugiat numquam, quibusdam totam amet dolor eos accusamus voluptas quo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta quos facere laboriosam fuga fugit dolorum consectetur cum debitis ipsa, fugiat numquam, quibusdam totam amet dolor eos accusamus voluptas quo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta quos facere laboriosam fuga fugit dolorum consectetur cum debitis ipsa, fugiat numquam, quibusdam totam amet dolor eos accusamus voluptas quo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta quos facere laboriosam fuga fugit dolorum consectetur cum debitis ipsa, fugiat numquam, quibusdam totam amet dolor eos accusamus voluptas quo!</p>
+                </div>
 
 
-        </header>
+            </main>
 
-        <main>
+        </div>
 
+        <footer>
+            <div class="container-fluid">
+                <div id="footTop" class="row">
 
+                    <div class="col-sm-3">
+                        <nav> 
+                            <p>Navigation:</p>
+                            <ul class="navBottom">
+                                <li><a href="index-work.html">Index Work</a></li>
+                                <li><a href="project-artists.html">Project Artists</a></li>
+                                <li><a href="project-work.html">Project Work</a></li>
+                                <li><a href="project-about.html">Project About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
 
-        </main>
+                    <div  class="col-sm-3">
+                        <p>About Us:</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellat ratione omnis ducimus? Possimus nulla cumque reprehenderit vel repellat quisquam quasi inventore, voluptatibus doloribus officiis sunt cupiditate eos? Fugiat, recusandae?</p>
+                    </div>
 
+                    <div  class="col-sm-3">
+                        <nav> 
+                            <p>Customer Service:</p>
+                            <ul class="navBottom">
+                                <li><a href="./template.html">Delivery Information</a></li>
+                                <li><a href="./template.html">Privacy Policy</a></li>
+                                <li><a href="./template.html">Shipping</a></li>
+                                <li><a href="./template.html">Terms and Conditions</a></li>
+                            </ul>
+                        </nav>
+                    </div>
 
-        <footer >
-            Copyright &copy; 2020 James E. Halladay, Alex ..., Glenn ...
+                    <div  class="col-sm-3">
+                        <p>Contact Us</p>
+                        <form action="http://www.randyconnolly.com/tests/process.php" id="footForm">
+                            <ol>
+                                <li><input type="text" placeholder="Enter name..." name="name"></li>
+                                <li><input type="email" placeholder="Enter email..." name="email"></li>
+                                <textarea name="message" rows="5" placeholder="Enter message"></textarea>
+                                <!-- <li><input type="text" placeholder="Enter message..." name="message"></li> -->
+                                <li><button type="submit">Submit</button></li>
+                            </ol>
+                        </form>
+                    </div>
+                </div>
+                <div id="footBottom" class="row">
+                    <div class="col-sm-7">
+                        <small>
+                            All Images Copyright's are held to their owners. This is a hypothetical website
+                        </small>
+                    </div>
+
+                    <div class="col-sm-5">
+                        <i>
+                            Copyright &copy; 2020 James E. Halladay, Alex ..., Glenn ..., CSCI 106-002
+                        </i>
+                    </div>
+
+                </div>
+            </div>
         </footer>
-
     </body>
 
 </html>
